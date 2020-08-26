@@ -24,7 +24,7 @@ Considering the filling rate and the input length, we focus on the title and des
 We use [BERT_base](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) as the main module of our matching model. 
 Focal loss is adopted to alleviate class imbalance problem. 
 
-Please download dataset and BERT parameters first.
+Please download the dataset and BERT weights first.
 
 Just run the train.py to train all the models we used in the challenge:
 ```python
